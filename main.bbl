@@ -1,0 +1,60 @@
+\begin{thebibliography}{10}
+\providecommand \doibase [0]{http://dx.doi.org/}%
+
+\bibitem{rao_statistical_1958}
+Rao CR. Some statistical methods for comparison of growth curves. {\it
+  Biometrics.} 1958\string;14(1)\string:1--17.
+\newblock ISBN: 0006-341X Publisher: JSTOR.
+
+\bibitem{brumback_smoothing_1998}
+Brumback BA, Rice JA. Smoothing {Spline} {Models} for the {Analysis} of
+  {Nested} and {Crossed} {Samples} of {Curves}. {\it Journal of the American
+  Statistical Association.} 1998\string;93(443)\string:961--976.
+\newblock Publisher: [American Statistical Association, Taylor \& Francis,
+  Ltd.]\href {\doibase 10.2307/2669837} {doi: 10.2307/2669837}
+
+\bibitem{nikolova_curve_2009}
+Nikolova B, Nikolov G, Todorov M. Curve fitting of sensors’ characteristics.
+  {\it Annual Journal of Electronics, ISSN.} 2009\string:1313--1842.
+
+\bibitem{fama_behavior_1965}
+Fama EF. The behavior of stock-market prices. {\it The journal of Business.}
+  1965\string;38(1)\string:34--105.
+\newblock ISBN: 0021-9398 Publisher: JSTOR.
+
+\bibitem{ramsay_when_1982}
+Ramsay JO. When the data are functions. {\it Psychometrika.}
+  1982\string;47(4)\string:379--396.
+\newblock \href {\doibase 10.1007/BF02293704} {doi: 10.1007/BF02293704}
+
+\bibitem{ramsay_functional_2005}
+Ramsay J, Silverman B. {\it Functional {Data} {Analysis}}.
+\newblock Springer {Series} in {Statistics}Springer, 2005.
+
+\bibitem{reiss_fast_2010}
+Reiss PT, Huang L, Mennes M. Fast function-on-scalar regression with penalized
+  basis expansions.. {\it The international journal of biostatistics.}
+  2010\string;6(1)\string:Article 28.
+\newblock Place: Germany\href {\doibase 10.2202/1557-4679.1246} {doi:
+  10.2202/1557-4679.1246}
+
+\bibitem{morris_functional_2015}
+Morris JS. Functional regression. {\it Annual Review of Statistics and Its
+  Application.} 2015\string;2(1)\string:321--359.
+\newblock Publisher: Annual Reviews.
+
+\bibitem{goldsmith_assessing_2016}
+Goldsmith J, Kitago T. Assessing systematic effects of stroke on motorcontrol
+  by using hierarchical function-on-scalar regression.. {\it Journal of the
+  Royal Statistical Society. Series C, Applied statistics.}
+  2016\string;65(2)\string:215--236.
+\newblock Place: England\href {\doibase 10.1111/rssc.12115} {doi:
+  10.1111/rssc.12115}
+
+\bibitem{zhang_note_2021}
+Zhang Z. A {Note} on {Wishart} and {Inverse} {Wishart} {Priors} for
+  {Covariance} {Matrix}. {\it Journal of Behavioral Data Science.}
+  2021\string;1.
+\newblock \href {\doibase 10.35566/jbds/v1n2/p2} {doi: 10.35566/jbds/v1n2/p2}
+
+\end{thebibliography}
