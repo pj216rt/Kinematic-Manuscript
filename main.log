@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.3)  19 AUG 2025 12:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.3)  2 SEP 2025 16:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1240,7 +1240,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 [4]
 
 [5]
-<simulated_dat.jpeg, id=75, 609.02531pt x 411.03563pt>
+<simulated_dat.jpeg, id=74, 609.02531pt x 411.03563pt>
 File: simulated_dat.jpeg Graphic file (type jpg)
 <use simulated_dat.jpeg>
 Package pdftex.def Info: simulated_dat.jpeg  used on input line 228.
@@ -1251,17 +1251,19 @@ Underfull \hbox (badness 10000) detected at line 229
  []
 
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6 <./simulated_dat.jpeg>]
+
+
+[6]
 <oc_ci_plot.jpeg, id=85, 2409.0pt x 1806.75pt>
 File: oc_ci_plot.jpeg Graphic file (type jpg)
 <use oc_ci_plot.jpeg>
 Package pdftex.def Info: oc_ci_plot.jpeg  used on input line 247.
 (pdftex.def)             Requested size: 353.15396pt x 264.85298pt.
 
-Underfull \hbox (badness 10000) detected at line 248
-[]
- []
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 <ant_lapex_plot.jpeg, id=86, 2409.0pt x 1806.75pt>
 File: ant_lapex_plot.jpeg Graphic file (type jpg)
@@ -1278,9 +1280,9 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[7 <./oc_ci_plot.jpeg>]
+[7 <./simulated_dat.jpeg>] (main.bbl
 
-[8 <./ant_lapex_plot.jpeg>] (main.bbl)
+[8 <./oc_ci_plot.jpeg>])
 Overfull \hbox (9.0pt too wide) in paragraph at lines 297--297
 [] [] 
  []
@@ -1309,7 +1311,7 @@ Underfull \hbox (badness 10000) detected at line 481
 
 LaTeX Warning: Float too large for page by 272.87404pt on input line 483.
 
-<oc_rapex_plot.jpeg, id=107, 2409.0pt x 1806.75pt>
+<oc_rapex_plot.jpeg, id=106, 2409.0pt x 1806.75pt>
 File: oc_rapex_plot.jpeg Graphic file (type jpg)
 <use oc_rapex_plot.jpeg>
 Package pdftex.def Info: oc_rapex_plot.jpeg  used on input line 491.
@@ -1320,9 +1322,12 @@ Underfull \hbox (badness 10000) detected at line 492
  []
 
 
+
+[9 <./ant_lapex_plot.jpeg>]
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<oc_lapex_plot.jpeg, id=108, 2409.0pt x 1806.75pt>
+<oc_lapex_plot.jpeg, id=113, 2409.0pt x 1806.75pt>
 File: oc_lapex_plot.jpeg Graphic file (type jpg)
 <use oc_lapex_plot.jpeg>
 Package pdftex.def Info: oc_lapex_plot.jpeg  used on input line 498.
@@ -1335,7 +1340,7 @@ Underfull \hbox (badness 10000) detected at line 499
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<ant_ci_plot.jpeg, id=109, 2409.0pt x 1806.75pt>
+<ant_ci_plot.jpeg, id=114, 2409.0pt x 1806.75pt>
 File: ant_ci_plot.jpeg Graphic file (type jpg)
 <use ant_ci_plot.jpeg>
 Package pdftex.def Info: ant_ci_plot.jpeg  used on input line 505.
@@ -1348,7 +1353,7 @@ Underfull \hbox (badness 10000) detected at line 506
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<ant_rapex_plot.jpeg, id=110, 2409.0pt x 1806.75pt>
+<ant_rapex_plot.jpeg, id=115, 2409.0pt x 1806.75pt>
 File: ant_rapex_plot.jpeg Graphic file (type jpg)
 <use ant_rapex_plot.jpeg>
 Package pdftex.def Info: ant_rapex_plot.jpeg  used on input line 512.
@@ -1361,7 +1366,7 @@ Underfull \hbox (badness 10000) detected at line 513
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<latR_ci_plot.jpeg, id=111, 2409.0pt x 1806.75pt>
+<latR_ci_plot.jpeg, id=116, 2409.0pt x 1806.75pt>
 File: latR_ci_plot.jpeg Graphic file (type jpg)
 <use latR_ci_plot.jpeg>
 Package pdftex.def Info: latR_ci_plot.jpeg  used on input line 519.
@@ -1374,7 +1379,7 @@ Underfull \hbox (badness 10000) detected at line 520
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<latR_rapex_plot.jpeg, id=112, 2409.0pt x 1806.75pt>
+<latR_rapex_plot.jpeg, id=117, 2409.0pt x 1806.75pt>
 File: latR_rapex_plot.jpeg Graphic file (type jpg)
 <use latR_rapex_plot.jpeg>
 Package pdftex.def Info: latR_rapex_plot.jpeg  used on input line 526.
@@ -1387,7 +1392,7 @@ Underfull \hbox (badness 10000) detected at line 527
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<latR_lapex_plot.jpeg, id=113, 2409.0pt x 1806.75pt>
+<latR_lapex_plot.jpeg, id=118, 2409.0pt x 1806.75pt>
 File: latR_lapex_plot.jpeg Graphic file (type jpg)
 <use latR_lapex_plot.jpeg>
 Package pdftex.def Info: latR_lapex_plot.jpeg  used on input line 533.
@@ -1400,7 +1405,7 @@ Underfull \hbox (badness 10000) detected at line 534
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<latL_ci_plot.jpeg, id=114, 2409.0pt x 1806.75pt>
+<latL_ci_plot.jpeg, id=119, 2409.0pt x 1806.75pt>
 File: latL_ci_plot.jpeg Graphic file (type jpg)
 <use latL_ci_plot.jpeg>
 Package pdftex.def Info: latL_ci_plot.jpeg  used on input line 540.
@@ -1413,7 +1418,7 @@ Underfull \hbox (badness 10000) detected at line 541
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<latL_rapex_plot.jpeg, id=115, 2409.0pt x 1806.75pt>
+<latL_rapex_plot.jpeg, id=120, 2409.0pt x 1806.75pt>
 File: latL_rapex_plot.jpeg Graphic file (type jpg)
 <use latL_rapex_plot.jpeg>
 Package pdftex.def Info: latL_rapex_plot.jpeg  used on input line 547.
@@ -1426,7 +1431,7 @@ Underfull \hbox (badness 10000) detected at line 548
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<latL_lapex_plot.jpeg, id=116, 2409.0pt x 1806.75pt>
+<latL_lapex_plot.jpeg, id=121, 2409.0pt x 1806.75pt>
 File: latL_lapex_plot.jpeg Graphic file (type jpg)
 <use latL_lapex_plot.jpeg>
 Package pdftex.def Info: latL_lapex_plot.jpeg  used on input line 554.
@@ -1444,23 +1449,21 @@ Package natbib Warning: There were undefined citations.
 
 
 
-[9]
+[10]
 
-[10 <./oc_rapex_plot.jpeg>]
-
-[11]
+[11 <./oc_rapex_plot.jpeg> <./oc_lapex_plot.jpeg>]
 
 [12]
 
-[13 <./oc_lapex_plot.jpeg> <./ant_ci_plot.jpeg>]
+[13]
 
-[14 <./ant_rapex_plot.jpeg> <./latR_ci_plot.jpeg>]
+[14 <./ant_ci_plot.jpeg> <./ant_rapex_plot.jpeg>]
 
-[15 <./latR_rapex_plot.jpeg> <./latR_lapex_plot.jpeg>]
+[15 <./latR_ci_plot.jpeg> <./latR_rapex_plot.jpeg>]
 
-[16 <./latL_ci_plot.jpeg> <./latL_rapex_plot.jpeg>]
+[16 <./latR_lapex_plot.jpeg> <./latL_ci_plot.jpeg>]
 
-[17 <./latL_lapex_plot.jpeg>] (main.aux)
+[17 <./latL_rapex_plot.jpeg> <./latL_lapex_plot.jpeg>] (main.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-06-09>
@@ -1480,11 +1483,11 @@ LaTeX Warning: There were undefined references.
 (\end occurred when \iftrue on line 4740 was incomplete)
 (\end occurred when \ifx on line 2 was incomplete) 
 Here is how much of TeX's memory you used:
- 22818 strings out of 468221
- 352702 string characters out of 5448284
- 850587 words of memory out of 5000000
+ 22824 strings out of 468221
+ 352756 string characters out of 5448284
+ 850902 words of memory out of 5000000
  50479 multiletter control sequences out of 15000+600000
- 732237 words of font info for 369 fonts, out of 8000000 for 9000
+ 732494 words of font info for 373 fonts, out of 8000000 for 9000
  1167 hyphenation exceptions out of 8191
  90i,19n,93p,1400b,573s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <D:/tex_stuff/fonts/type1/pub
@@ -1495,7 +1498,7 @@ cm/cmsy10.pfb><D:/tex_stuff/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/tex_st
 uff/fonts/type1/urw/times/utmb8a.pfb><D:/tex_stuff/fonts/type1/urw/times/utmbi8
 a.pfb><D:/tex_stuff/fonts/type1/urw/times/utmr8a.pfb><D:/tex_stuff/fonts/type1/
 urw/times/utmri8a.pfb>
-Output written on main.pdf (17 pages, 11261582 bytes).
+Output written on main.pdf (17 pages, 11263867 bytes).
 PDF statistics:
  307 PDF objects out of 1000 (max. 8388607)
  70 named destinations out of 1000 (max. 500000)

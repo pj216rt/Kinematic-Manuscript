@@ -77,16 +77,16 @@ The goal of this analysis is to understand the impact of multiple different cova
 %\section{Description of 3D Kinematic Data}\label{sec2}
 \subsection{Description of 3D Kinematic Data}
 
-A description of the motivating dataset, its structure, and means of collection is appropiate at this point.  The study population in this work consists of 40 subjects recruited to XXX institute.  
+Tempromandibular disorders (TMD) are common with patients experiencing limited tempromanibular joing (TMJ) function.  This limited function often affects several critical components of daily living.  Symptoms such as joint sounds and mild pain are often found in both patients with TMJ disorders and those with dentofacial deformities.  Despite this, the effect of skeletal malocclusion classifcation (Class II and III) and sex on TMJ function is an area of minimal understanding.  Additionally, orthognatic surgery can alleviate some or all of these symptoms.  Mandibular kinematic data reflects TMJ functional motion and has vast potential for clinical use.  
 
-Each subject is fitted with several markers on several parts of the jaw: the lower central incisor as well as the left and right apex of the mandible.  Subjects were then instructed to perform various tasks, including opening and closing the mandible, moving the mandible to the left and back, and moving the mandible to the right and back.  Describe the data process more.
+Patients enrolled in an IRB-approved prospective natural history study on morphological differences across dentofacial deformities at the NIH betweeen 2018 and 2022.  Forty patients with Class I, II, and III (asymptomatic=24, symptomatic=16) completed a biomechanical assesntment of TMJ function.  The average age was 32.73 years, with a standard deviation of 14.81 years.  Twenty-five of the subjects were female, while fifteen were male.  TMJ symptoms include popping or clicking sounds, discomfort, and mild pain.  3D manidublar kinematics were captured using a custom jaw tracking system during maximum open-close, lateral (left and right), and anterior oral tasks.  
 
-For each subject and task, numerous replications are run and three dimensional kinematic data in cartersian coordinates relative to the starting position are recorded; for each task, the X, Y, and Z coordinates of jaw movement are observed.  In other words, we are provided tri-variate functional outcomes \(P_{ijk}^X(t), P_{ijk}^Y(t), P_{ijk}^Z(t)\) for subject \(i\), repetition \(j\), and task \(k\).  An example set of data is provided below:
+Each subject is fitted with several markers on several parts of the jaw: the lower central incisor as well as the left and right apex of the mandible.  Data combined with CBCT images resulted in kinematic trajectories of the mandibular ventral incisor (CI), and movement of the bilateral condylar apexes (CA).  For each subject and task, numerous replications are run and three dimensional kinematic data in cartersian coordinates relative to the starting position are recorded; for each task, the X, Y, and Z coordinates of jaw movement are observed.  In other words, we are provided tri-variate functional outcomes \(P_{ijk}^X(t), P_{ijk}^Y(t), P_{ijk}^Z(t)\) for subject \(i\), repetition \(j\), and task \(k\).  An example set of data is provided below:
 
 \begin{figure}[h]
     \centering
     \includegraphics[width = 0.7\textwidth]{OC_CI_raw.jpeg}
-    \caption{Observed Kinematic Data for the Central Encisor Tracking Point, Open/Close Task}
+    \caption{Observed Kinematic Data for the Central Encisor Tracking Point, Open/Close Task.  Subjects are grouped by color.}
     \label{fig:example_dat}
 \end{figure}
 
@@ -226,7 +226,7 @@ An example of this simulated data is shown below:
 \begin{figure}[h]
     \centering
     \includegraphics[width = 0.7\textwidth]{simulated_dat.jpeg}
-    \caption{Example of Simulated Data}
+    \caption{Example of Simulated Data.  Three random subjects are highlighted.}
     \label{fig:sim_dat}
 \end{figure}
 
@@ -245,7 +245,7 @@ Now, we turn our attention to the emperical data described earlier.  The focus i
 \begin{figure}[h]
     \centering
     \includegraphics[width = 0.7\textwidth]{oc_ci_plot.jpeg}
-    \caption{Results for Open/Close Task, central encisor tracking point.}
+    \caption{Results for Open/Close Task, central encisor tracking point.  Covariates that contained at least one significant time point are denoted with an asterisk in the legend.  Red points are used to denote time points for the coefficient curves that do not include 0 in their 90\% posterior credibility interval.}
     \label{fig:oc_ci}
 \end{figure}
 
@@ -265,7 +265,7 @@ Despite this, analysis was performed using a modified version of an existing Gib
 
 More generally, this work demonstrates that high-dimensional functional outcomes, when  carefully structured, via hierarchical models for example, can yield interpretable insights while maintaining statistical rigor.
 
-There are numerous avenues for future exploration of this work's results.  One such idea could be the inclusion of the selection of the roughness penalty \(\alpha\) into the model instead of selecting it \emph{a priori}.  This would make the model truly Bayesian, in the sense that the data would select the smoothness penalty.  
+There are numerous avenues for future exploration of this work's results.  One such idea could be the inclusion of the selection of the roughness penalty \(\alpha\) into the model instead of selecting it \emph{a priori}.  This would make the model truly Bayesian, in the sense that the data would select the smoothness penalty.  Another thought would be to impose structure on the level 1 covariance matrix.  In general, for a \(p\) dimensional covariance matrix, there are \(\frac{p*(p+1)}{2}\) entries to estimate.  For our case (p=300), this results in there being 45,150 entries to estimate.  Imposing a structure on this matrix, say for example a first order autoregressive structure would reduce the number of parameters to just two: the marginal variance and the correlation factor \(\rho\).  While the STAN model did not perform as well in this setting, perhaps it would do better in this structured covariance setting.  
 
 %\backmatter
 \bmsection*{Author contributions}
